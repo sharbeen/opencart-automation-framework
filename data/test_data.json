@@ -1,0 +1,9 @@
+{
+  "user": {
+    "email": "test@example.com",
+    "password": "Test@123"
+  },
+  "products": {
+    "search_keyword": "iPhone"
+  }
+}
