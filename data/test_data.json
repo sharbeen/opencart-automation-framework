@@ -1,9 +1,54 @@
 {
-  "user": {
-    "email": "test@example.com",
-    "password": "Test@123"
-  },
-  "products": {
-    "search_keyword": "iPhone"
-  }
+  "test_cases":
+  [
+    {
+    "name": "Buy Desktop",
+    "category": "Desktops",
+    "subcategory": "Mac (1)",
+    "product_name": "iMac",
+    "quantity": 2,
+    "shipping_address":
+    {
+    "first_name": "Aby",
+    "last_name": "George",
+    "email": "abctest@gmail.com",
+    "telephone": "0488996321",
+    "address_1": "121 New Street",
+    "city": "Sydney",
+    "post_code": "2000",
+    "country": "Australia",
+    "zone": "New South Wales"
+    },
+    "checkout": {"checkout_type": "Guest Checkout"},
+    "comments": {
+    "shipping_comment": "This is a test shopping for testcase1",
+    "payment_comment": "This is a test"
+    }
+    },
+
+    {
+    "name": "Buy Tablets",
+    "category": "Tablets",
+    "subcategory": null,
+    "product_name": "Samsung Galaxy Tab 10.1",
+    "quantity": 4,
+    "shipping_address":
+    {
+    "first_name": "Joe",
+    "last_name": "Wilson",
+    "email": "guest@gmail.com",
+    "telephone": "0488996321",
+    "address_1": "121 New Street",
+    "city": "Sydney",
+    "post_code": "2000",
+    "country": "Australia",
+    "zone": "Tasmania"
+    },
+    "checkout": {"checkout_type": "Guest Checkout"},
+    "comments": {
+    "shipping_comment": "This is a test shopping for testcase3",
+    "payment_comment": "This is a test"
+    }
+    }
+  ]
 }
